@@ -1,0 +1,378 @@
+LOG:  database system was shut down at 2017-04-27 12:44:23 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-04-27 12:50:57 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (28 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (19 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (22 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (8 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 26636) running in data directory "/usr/local/var/postgres"?
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+FATAL:  terminating autovacuum process due to administrator command
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-04-27 13:12:34 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+FATAL:  terminating autovacuum process due to administrator command
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-04-27 13:13:23 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  syntax error at or near "q" at character 1
+STATEMENT:  q
+	exit
+	;
+ERROR:  syntax error at or near "exit" at character 1
+STATEMENT:  exit
+	quit
+	;
+ERROR:  syntax error at or near "exit" at character 1
+STATEMENT:  exit;
+ERROR:  syntax error at or near "quit" at character 1
+STATEMENT:  quit;
+ERROR:  syntax error at or near "q" at character 1
+STATEMENT:  q;
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (10 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (19 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  relation "b8" does not exist at character 15
+STATEMENT:  select * from b8;
+ERROR:  missing data for column "del"
+CONTEXT:  COPY r, line 1: "172.016.114.169,204.071.200.242,7/29/98,1"
+STATEMENT:  COPY R FROM '/Users/bilibili/Codes/DCube-SQL/src/darpa.csv' WITH DELIMITER ',' CSV
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  column "nan" does not exist at character 53
+STATEMENT:  INSERT INTO Di ( SELECT a, mass FROM MB WHERE mass<=NaN AND i=1 ORDER BY mass )
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (18 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (9 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (9 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (28 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (7 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (5 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (7 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  syntax error at or near "count" at character 10
+STATEMENT:  select * count(f)rom R;
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  syntax error at or near "select" at character 72
+STATEMENT:  CREATE INDEX ON B (col1, col2, col3, col4, col5, col6, col7, cnt, del)
+	select count(*) from B;
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic analyze of table "bilibili.public.b"
+ERROR:  relation "results6" does not exist at character 15
+STATEMENT:  select * from results6;
+LOG:  checkpoints are occurring too frequently (21 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (29 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (19 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (21 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  syntax error at or near ";" at character 30
+STATEMENT:  select count(*) from b1 where;
+ERROR:  relation "density2" does not exist at character 15
+STATEMENT:  select * from density2;
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (19 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (9 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (7 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (20 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  relative path not allowed for COPY to file
+STATEMENT:  COPY best_density TO 'results/4.1.ari+density+del/density.csv' DELIMITER ',' CSV HEADER;
+ERROR:  relation "results6" does not exist
+STATEMENT:  COPY results6 TO '/Users/bilibili/Codes/DCube-SQL/src/results/4.1.ari+density+del/results6.csv' DELIMITER ',' CSV HEADER;
+LOG:  could not receive data from client: Connection reset by peer
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (5 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (5 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (26 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (5 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (24 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (8 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (15 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (13 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (17 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (26 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (18 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (14 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (18 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (12 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (18 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (18 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (20 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (24 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (16 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (7 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (20 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (11 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (6 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (22 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic vacuum of table "bilibili.public.b"
+LOG:  checkpoints are occurring too frequently (7 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".
+LOG:  checkpoints are occurring too frequently (28 seconds apart)
+HINT:  Consider increasing the configuration parameter "max_wal_size".

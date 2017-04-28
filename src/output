@@ -1,0 +1,1194 @@
+javac -cp postgresql-42.0.0.jar:. DCube.java
+java -cp postgresql-42.0.0.jar:. DCube /Users/bilibili/Codes/DCube-SQL/src/airforce_cnt.csv output 7 ari density 5
+Opened database successfully
+import data /Users/bilibili/Codes/DCube-SQL/src/airforce_cnt.csv to database
+Create R table done
+Import data done
+=== DCUBE ===
+Create RORI table done
+Copy to RORI done
+Compute {Rn} done
+Compute MR done
+=== find_single_block ===
+Initializing...
+Cardinalities: (3,70,11,7195,21493,512,512,)
+Start removing blocks...
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1105.1854673602952
+dim2, density: 1107.7166257441727
+dim3, density: 1084.3354147782588
+dim4, density: 1452.6901507185419
+dim5, density: 3587.8615506329115
+dim6, density: 843.6331593134747
+dim7, density: 1096.601234946952
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4898431.0, |B5|=21493, MB/|B5|=227.90820267063694
+Deleted 20948 values from B5
+Table B5 remains 545 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 3438.87995930824
+dim2, density: 3469.175452578845
+dim3, density: 3367.212241203756
+dim4, density: 16859.576923076922
+dim5, density: 3524.5042117930207
+dim6, density: 2668.262748384008
+dim7, density: 3583.56657901028
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=4535057.0, |B4|=7195, MB/|B4|=630.3067407922168
+Deleted 7028 values from B4
+Table B4 remains 167 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 10906.200220022001
+dim2, density: 16892.205245153935
+dim3, density: 15849.422418553286
+dim4, density: 17144.815440289505
+dim5, density: 22660.983606557376
+dim6, density: 17171.849889624726
+dim7, density: 21634.410313901346
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4383490.0, |B5|=545, MB/|B5|=8043.100917431193
+Deleted 539 values from B5
+Table B5 remains 6 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 15502.323690383111
+dim2, density: 22969.15650741351
+dim3, density: 21264.10691823899
+dim4, density: 25398.477211796246
+dim5, density: 22142.563479623826
+dim6, density: 27541.09024390244
+dim7, density: 34586.76375
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=4146960.0, |B7|=512, MB/|B7|=8099.53125
+Deleted 481 values from B7
+Table B7 remains 31 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 23156.377192982458
+dim2, density: 36237.87312414734
+dim3, density: 32477.061946902653
+dim4, density: 42483.28526645768
+dim5, density: 33833.2893081761
+dim6, density: 66446.01173020528
+dim7, density: 25126.672279792743
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3952773.0, |B6|=512, MB/|B6|=7720.259765625
+Deleted 459 values from B6
+Table B6 remains 53 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 54447.9203539823
+dim2, density: 81145.14545454546
+dim3, density: 64896.283132530116
+dim4, density: 124075.82122905027
+dim5, density: 65407.833333333336
+dim6, density: 65531.42611683849
+dim7, density: 61123.39616613418
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=3236870.0, |B4|=167, MB/|B4|=19382.45508982036
+Deleted 162 values from B4
+Table B4 remains 5 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 103603.75706214689
+dim2, density: 195029.4375
+dim3, density: 124144.25882352941
+dim4, density: 90698.4
+dim5, density: 124627.75862068965
+dim6, density: 145409.58914728684
+dim7, density: 124875.87417218542
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=3172796.0, |B2|=70, MB/|B2|=45325.65714285714
+Deleted 67 values from B2
+Table B2 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 166707.86363636365
+dim2, density: 166707.86363636365
+dim3, density: 202450.3300970874
+dim4, density: 146965.0
+dim5, density: 200470.1214953271
+dim6, density: 299032.43548387097
+dim7, density: 221454.58333333334
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3120471.0, |B6|=53, MB/|B6|=58876.811320754714
+Deleted 50 values from B6
+Table B6 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 295670.43333333335
+dim2, density: 295670.43333333335
+dim3, density: 348624.23076923075
+dim4, density: 265546.3275862069
+dim5, density: 319851.61403508775
+dim6, density: 264772.43333333335
+dim7, density: 542568.5588235294
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=2648573.0, |B7|=31, MB/|B7|=85437.83870967742
+Deleted 28 values from B7
+Table B7 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 554062.03125
+dim2, density: 554062.03125
+dim3, density: 754925.5
+dim4, density: 513048.2
+dim5, density: 625478.0
+dim6, density: 496448.3125
+dim7, density: 495237.53125
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=2635333.0, |B3|=11, MB/|B3|=239575.72727272726
+Deleted 10 values from B3
+Table B3 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 805908.4090909091
+dim2, density: 805908.4090909091
+dim3, density: 0.0
+dim4, density: 769572.2999999999
+dim5, density: 937354.894736842
+dim6, density: 721988.2727272727
+dim7, density: 720345.5
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=2588316.0, |B5|=6, MB/|B5|=431386.0
+Deleted 5 values from B5
+Table B5 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1042940.2941176471
+dim2, density: 1042940.2941176471
+dim3, density: 0.0
+dim4, density: 1026096.4
+dim5, density: 0.0
+dim6, density: 934337.7647058824
+dim7, density: 932211.8235294118
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=2544249.0, |B1|=3, MB/|B1|=848083.0
+Deleted 2 values from B1
+Table B1 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 0.0
+dim2, density: 1181999.0
+dim3, density: 0.0
+dim4, density: 1183957.3846153845
+dim5, density: 0.0
+dim6, density: 1058916.1333333333
+dim7, density: 1056506.7333333334
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=2532855.0, |B4|=5, MB/|B4|=506571.0
+Deleted 4 values from B4
+Table B4 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 0.0
+dim2, density: 1399222.3636363638
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 1231664.0
+dim7, density: 1228378.4545454546
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=2198778.0, |B2|=3, MB/|B2|=732926.0
+Deleted 2 values from B2
+Table B2 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 0.0
+dim2, density: 0.0
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 1505367.111111111
+dim7, density: 1501351.4444444443
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=2198778.0, |B6|=3, MB/|B6|=732926.0
+Deleted 2 values from B6
+Table B6 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 0.0
+dim2, density: 0.0
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 1930307.0
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=1935472.0, |B7|=3, MB/|B7|=645157.3333333334
+Deleted 2 values from B7
+Table B7 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 0.0
+dim2, density: 0.0
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B1|=1, MB/|B1|=1930307.0
+Deleted 1 values from B1
+Table B1 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim2, density: 0.0
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B2|=1, MB/|B2|=0.0
+Deleted 1 values from B2
+Table B2 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 0.0
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B3|=1, MB/|B3|=0.0
+Deleted 1 values from B3
+Table B3 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim4, density: 0.0
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B4|=1, MB/|B4|=0.0
+Deleted 1 values from B4
+Table B4 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim5, density: 0.0
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B5|=1, MB/|B5|=0.0
+Deleted 1 values from B5
+Table B5 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim6, density: 0.0
+dim7, density: 0.0
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B6|=1, MB/|B6|=0.0
+Deleted 1 values from B6
+Table B6 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim7, density: -1.0
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=0.0, |B7|=1, MB/|B7|=0.0
+Deleted 1 values from B7
+Table B7 is empty
+--maxIters=29790
+Reconstruct the dense block
+ 1, 1, 1, 1, 1, 1, 1,
+=== find_single_block: 1930307.0===
+block density: 1930307.0
+Compute MR done
+=== find_single_block ===
+Initializing...
+Cardinalities: (3,70,11,7195,21493,512,512,)
+Start removing blocks...
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 893.0098341948043
+dim2, density: 1107.7166257441727
+dim3, density: 1084.3354147782588
+dim4, density: 1452.6901507185419
+dim5, density: 3587.8615506329115
+dim6, density: 843.6331593134747
+dim7, density: 1096.601234946952
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4898431.0, |B5|=21493, MB/|B5|=227.90820267063694
+Deleted 20948 values from B5
+Table B5 remains 545 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 2724.5201220890795
+dim2, density: 3469.175452578845
+dim3, density: 3367.212241203756
+dim4, density: 16859.576923076922
+dim5, density: 3524.5042117930207
+dim6, density: 2668.262748384008
+dim7, density: 3583.56657901028
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=4535057.0, |B4|=7195, MB/|B4|=630.3067407922168
+Deleted 7028 values from B4
+Table B4 remains 167 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 7436.515685195377
+dim2, density: 16892.205245153935
+dim3, density: 15849.422418553286
+dim4, density: 17144.815440289505
+dim5, density: 22660.983606557376
+dim6, density: 17171.849889624726
+dim7, density: 21634.410313901346
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4383490.0, |B5|=545, MB/|B5|=8043.100917431193
+Deleted 539 values from B5
+Table B5 remains 6 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 10572.886541471047
+dim2, density: 22969.15650741351
+dim3, density: 21264.10691823899
+dim4, density: 25398.477211796246
+dim5, density: 22142.563479623826
+dim6, density: 27541.09024390244
+dim7, density: 34586.76375
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=4146960.0, |B7|=512, MB/|B7|=8099.53125
+Deleted 481 values from B7
+Table B7 remains 31 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 16953.76286072773
+dim2, density: 36237.87312414734
+dim3, density: 32477.061946902653
+dim4, density: 42483.28526645768
+dim5, density: 33833.2893081761
+dim6, density: 66446.01173020528
+dim7, density: 25126.672279792743
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3952773.0, |B6|=512, MB/|B6|=7720.259765625
+Deleted 459 values from B6
+Table B6 remains 53 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 39976.77218934911
+dim2, density: 81145.14545454546
+dim3, density: 64896.283132530116
+dim4, density: 124075.82122905027
+dim5, density: 65407.833333333336
+dim6, density: 65531.42611683849
+dim7, density: 61123.39616613418
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=3236870.0, |B4|=167, MB/|B4|=19382.45508982036
+Deleted 162 values from B4
+Table B4 remains 5 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 76773.57386363637
+dim2, density: 195029.4375
+dim3, density: 124144.25882352941
+dim4, density: 77656.02873563218
+dim5, density: 124627.75862068965
+dim6, density: 145409.58914728684
+dim7, density: 124875.87417218542
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=3172796.0, |B2|=70, MB/|B2|=45325.65714285714
+Deleted 67 values from B2
+Table B2 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 123964.66972477065
+dim2, density: 123964.66972477065
+dim3, density: 202450.3300970874
+dim4, density: 126281.76635514018
+dim5, density: 200470.1214953271
+dim6, density: 299032.43548387097
+dim7, density: 221454.58333333334
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3120471.0, |B6|=53, MB/|B6|=58876.811320754714
+Deleted 50 values from B6
+Table B6 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 229019.47457627117
+dim2, density: 229019.47457627117
+dim3, density: 348624.23076923075
+dim4, density: 237055.2456140351
+dim5, density: 319851.61403508775
+dim6, density: 229019.47457627117
+dim7, density: 542568.5588235294
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=2648573.0, |B7|=31, MB/|B7|=85437.83870967742
+Deleted 28 values from B7
+Table B7 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 435875.77419354836
+dim2, density: 435875.77419354836
+dim3, density: 754925.5
+dim4, density: 465936.17241379304
+dim5, density: 625478.0
+dim6, density: 435875.77419354836
+dim7, density: 435875.77419354836
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=2635333.0, |B3|=11, MB/|B3|=239575.72727272726
+Deleted 10 values from B3
+Table B3 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 643435.6666666666
+dim2, density: 643435.6666666666
+dim3, density: 587484.7391304348
+dim4, density: 711165.7368421053
+dim5, density: 937354.894736842
+dim6, density: 643435.6666666666
+dim7, density: 643435.6666666666
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=2588316.0, |B5|=6, MB/|B5|=431386.0
+Deleted 5 values from B5
+Table B5 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 844509.3125
+dim2, density: 844509.3125
+dim3, density: 750674.9444444444
+dim4, density: 965153.5
+dim5, density: 750674.9444444444
+dim6, density: 844509.3125
+dim7, density: 844509.3125
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=2544249.0, |B4|=5, MB/|B4|=508849.8
+Deleted 5 values from B4
+Table B4 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1228377.1818181819
+dim2, density: 1228377.1818181819
+dim3, density: 1039396.0769230769
+dim5, density: 1039396.0769230769
+dim6, density: 1228377.1818181819
+dim7, density: 1228377.1818181819
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B1|=3, MB/|B1|=643435.6666666666
+Deleted 3 values from B1
+Table B1 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim2, density: 1689018.625
+dim3, density: 1351214.9
+dim5, density: 1351214.9
+dim6, density: 1689018.625
+dim7, density: 1689018.625
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B2|=3, MB/|B2|=643435.6666666666
+Deleted 3 values from B2
+Table B2 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1930307.0
+dim5, density: 1930307.0
+dim6, density: 2702429.8
+dim7, density: 2702429.8
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B6|=3, MB/|B6|=643435.6666666666
+Deleted 3 values from B6
+Table B6 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 3378037.25
+dim5, density: 3378037.25
+dim7, density: 6756074.5
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B7|=3, MB/|B7|=643435.6666666666
+Deleted 3 values from B7
+Table B7 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1.3512149E7
+dim5, density: 1.3512149E7
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B3|=1, MB/|B3|=1930307.0
+Deleted 1 values from B3
+Table B3 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim5, density: -1.0
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B5|=1, MB/|B5|=1930307.0
+Deleted 1 values from B5
+Table B5 is empty
+--maxIters=29796
+Reconstruct the dense block
+ 0, 0, 0, 0, 1, 0, 0,
+=== find_single_block: 1.3512149E7===
+block density: 1.3512149E7
+Compute MR done
+=== find_single_block ===
+Initializing...
+Cardinalities: (3,70,11,7195,21493,512,512,)
+Start removing blocks...
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 893.0098341948043
+dim2, density: 1107.7166257441727
+dim3, density: 1084.3354147782588
+dim4, density: 1452.6901507185419
+dim5, density: 3587.8615506329115
+dim6, density: 843.6331593134747
+dim7, density: 1096.601234946952
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4898431.0, |B5|=21493, MB/|B5|=227.90820267063694
+Deleted 20948 values from B5
+Table B5 remains 545 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 2724.5201220890795
+dim2, density: 3469.175452578845
+dim3, density: 3367.212241203756
+dim4, density: 16859.576923076922
+dim5, density: 3524.5042117930207
+dim6, density: 2668.262748384008
+dim7, density: 3583.56657901028
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=4535057.0, |B4|=7195, MB/|B4|=630.3067407922168
+Deleted 7028 values from B4
+Table B4 remains 167 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 7436.515685195377
+dim2, density: 16892.205245153935
+dim3, density: 15849.422418553286
+dim4, density: 17144.815440289505
+dim5, density: 22660.983606557376
+dim6, density: 17171.849889624726
+dim7, density: 21634.410313901346
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4383490.0, |B5|=545, MB/|B5|=8043.100917431193
+Deleted 539 values from B5
+Table B5 remains 6 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 10572.886541471047
+dim2, density: 22969.15650741351
+dim3, density: 21264.10691823899
+dim4, density: 25398.477211796246
+dim5, density: 22142.563479623826
+dim6, density: 27541.09024390244
+dim7, density: 34586.76375
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=4146960.0, |B7|=512, MB/|B7|=8099.53125
+Deleted 481 values from B7
+Table B7 remains 31 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 16953.76286072773
+dim2, density: 36237.87312414734
+dim3, density: 32477.061946902653
+dim4, density: 42483.28526645768
+dim5, density: 33833.2893081761
+dim6, density: 66446.01173020528
+dim7, density: 25126.672279792743
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3952773.0, |B6|=512, MB/|B6|=7720.259765625
+Deleted 459 values from B6
+Table B6 remains 53 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 39976.77218934911
+dim2, density: 81145.14545454546
+dim3, density: 64896.283132530116
+dim4, density: 124075.82122905027
+dim5, density: 65407.833333333336
+dim6, density: 65531.42611683849
+dim7, density: 61123.39616613418
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=3236870.0, |B4|=167, MB/|B4|=19382.45508982036
+Deleted 162 values from B4
+Table B4 remains 5 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 76773.57386363637
+dim2, density: 195029.4375
+dim3, density: 124144.25882352941
+dim4, density: 77656.02873563218
+dim5, density: 124627.75862068965
+dim6, density: 145409.58914728684
+dim7, density: 124875.87417218542
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=3172796.0, |B2|=70, MB/|B2|=45325.65714285714
+Deleted 67 values from B2
+Table B2 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 123964.66972477065
+dim2, density: 123964.66972477065
+dim3, density: 202450.3300970874
+dim4, density: 126281.76635514018
+dim5, density: 200470.1214953271
+dim6, density: 299032.43548387097
+dim7, density: 221454.58333333334
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3120471.0, |B6|=53, MB/|B6|=58876.811320754714
+Deleted 50 values from B6
+Table B6 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 229019.47457627117
+dim2, density: 229019.47457627117
+dim3, density: 348624.23076923075
+dim4, density: 237055.2456140351
+dim5, density: 319851.61403508775
+dim6, density: 229019.47457627117
+dim7, density: 542568.5588235294
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=2648573.0, |B7|=31, MB/|B7|=85437.83870967742
+Deleted 28 values from B7
+Table B7 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 435875.77419354836
+dim2, density: 435875.77419354836
+dim3, density: 754925.5
+dim4, density: 465936.17241379304
+dim5, density: 625478.0
+dim6, density: 435875.77419354836
+dim7, density: 435875.77419354836
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=2635333.0, |B3|=11, MB/|B3|=239575.72727272726
+Deleted 10 values from B3
+Table B3 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 643435.6666666666
+dim2, density: 643435.6666666666
+dim3, density: 587484.7391304348
+dim4, density: 711165.7368421053
+dim5, density: 937354.894736842
+dim6, density: 643435.6666666666
+dim7, density: 643435.6666666666
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=2588316.0, |B5|=6, MB/|B5|=431386.0
+Deleted 5 values from B5
+Table B5 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 844509.3125
+dim2, density: 844509.3125
+dim3, density: 750674.9444444444
+dim4, density: 965153.5
+dim5, density: 750674.9444444444
+dim6, density: 844509.3125
+dim7, density: 844509.3125
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=2544249.0, |B4|=5, MB/|B4|=508849.8
+Deleted 5 values from B4
+Table B4 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1228377.1818181819
+dim2, density: 1228377.1818181819
+dim3, density: 1039396.0769230769
+dim5, density: 1039396.0769230769
+dim6, density: 1228377.1818181819
+dim7, density: 1228377.1818181819
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B1|=3, MB/|B1|=643435.6666666666
+Deleted 3 values from B1
+Table B1 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim2, density: 1689018.625
+dim3, density: 1351214.9
+dim5, density: 1351214.9
+dim6, density: 1689018.625
+dim7, density: 1689018.625
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B2|=3, MB/|B2|=643435.6666666666
+Deleted 3 values from B2
+Table B2 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1930307.0
+dim5, density: 1930307.0
+dim6, density: 2702429.8
+dim7, density: 2702429.8
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B6|=3, MB/|B6|=643435.6666666666
+Deleted 3 values from B6
+Table B6 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 3378037.25
+dim5, density: 3378037.25
+dim7, density: 6756074.5
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B7|=3, MB/|B7|=643435.6666666666
+Deleted 3 values from B7
+Table B7 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1.3512149E7
+dim5, density: 1.3512149E7
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B3|=1, MB/|B3|=1930307.0
+Deleted 1 values from B3
+Table B3 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim5, density: -1.0
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B5|=1, MB/|B5|=1930307.0
+Deleted 1 values from B5
+Table B5 is empty
+--maxIters=29796
+Reconstruct the dense block
+ 0, 0, 0, 0, 1, 0, 0,
+=== find_single_block: 1.3512149E7===
+block density: 1.3512149E7
+Compute MR done
+=== find_single_block ===
+Initializing...
+Cardinalities: (3,70,11,7195,21493,512,512,)
+Start removing blocks...
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 893.0098341948043
+dim2, density: 1107.7166257441727
+dim3, density: 1084.3354147782588
+dim4, density: 1452.6901507185419
+dim5, density: 3587.8615506329115
+dim6, density: 843.6331593134747
+dim7, density: 1096.601234946952
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4898431.0, |B5|=21493, MB/|B5|=227.90820267063694
+Deleted 20948 values from B5
+Table B5 remains 545 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 2724.5201220890795
+dim2, density: 3469.175452578845
+dim3, density: 3367.212241203756
+dim4, density: 16859.576923076922
+dim5, density: 3524.5042117930207
+dim6, density: 2668.262748384008
+dim7, density: 3583.56657901028
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=4535057.0, |B4|=7195, MB/|B4|=630.3067407922168
+Deleted 7028 values from B4
+Table B4 remains 167 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 7436.515685195377
+dim2, density: 16892.205245153935
+dim3, density: 15849.422418553286
+dim4, density: 17144.815440289505
+dim5, density: 22660.983606557376
+dim6, density: 17171.849889624726
+dim7, density: 21634.410313901346
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4383490.0, |B5|=545, MB/|B5|=8043.100917431193
+Deleted 539 values from B5
+Table B5 remains 6 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 10572.886541471047
+dim2, density: 22969.15650741351
+dim3, density: 21264.10691823899
+dim4, density: 25398.477211796246
+dim5, density: 22142.563479623826
+dim6, density: 27541.09024390244
+dim7, density: 34586.76375
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=4146960.0, |B7|=512, MB/|B7|=8099.53125
+Deleted 481 values from B7
+Table B7 remains 31 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 16953.76286072773
+dim2, density: 36237.87312414734
+dim3, density: 32477.061946902653
+dim4, density: 42483.28526645768
+dim5, density: 33833.2893081761
+dim6, density: 66446.01173020528
+dim7, density: 25126.672279792743
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3952773.0, |B6|=512, MB/|B6|=7720.259765625
+Deleted 459 values from B6
+Table B6 remains 53 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 39976.77218934911
+dim2, density: 81145.14545454546
+dim3, density: 64896.283132530116
+dim4, density: 124075.82122905027
+dim5, density: 65407.833333333336
+dim6, density: 65531.42611683849
+dim7, density: 61123.39616613418
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=3236870.0, |B4|=167, MB/|B4|=19382.45508982036
+Deleted 162 values from B4
+Table B4 remains 5 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 76773.57386363637
+dim2, density: 195029.4375
+dim3, density: 124144.25882352941
+dim4, density: 77656.02873563218
+dim5, density: 124627.75862068965
+dim6, density: 145409.58914728684
+dim7, density: 124875.87417218542
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=3172796.0, |B2|=70, MB/|B2|=45325.65714285714
+Deleted 67 values from B2
+Table B2 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 123964.66972477065
+dim2, density: 123964.66972477065
+dim3, density: 202450.3300970874
+dim4, density: 126281.76635514018
+dim5, density: 200470.1214953271
+dim6, density: 299032.43548387097
+dim7, density: 221454.58333333334
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3120471.0, |B6|=53, MB/|B6|=58876.811320754714
+Deleted 50 values from B6
+Table B6 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 229019.47457627117
+dim2, density: 229019.47457627117
+dim3, density: 348624.23076923075
+dim4, density: 237055.2456140351
+dim5, density: 319851.61403508775
+dim6, density: 229019.47457627117
+dim7, density: 542568.5588235294
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=2648573.0, |B7|=31, MB/|B7|=85437.83870967742
+Deleted 28 values from B7
+Table B7 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 435875.77419354836
+dim2, density: 435875.77419354836
+dim3, density: 754925.5
+dim4, density: 465936.17241379304
+dim5, density: 625478.0
+dim6, density: 435875.77419354836
+dim7, density: 435875.77419354836
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=2635333.0, |B3|=11, MB/|B3|=239575.72727272726
+Deleted 10 values from B3
+Table B3 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 643435.6666666666
+dim2, density: 643435.6666666666
+dim3, density: 587484.7391304348
+dim4, density: 711165.7368421053
+dim5, density: 937354.894736842
+dim6, density: 643435.6666666666
+dim7, density: 643435.6666666666
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=2588316.0, |B5|=6, MB/|B5|=431386.0
+Deleted 5 values from B5
+Table B5 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 844509.3125
+dim2, density: 844509.3125
+dim3, density: 750674.9444444444
+dim4, density: 965153.5
+dim5, density: 750674.9444444444
+dim6, density: 844509.3125
+dim7, density: 844509.3125
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=2544249.0, |B4|=5, MB/|B4|=508849.8
+Deleted 5 values from B4
+Table B4 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1228377.1818181819
+dim2, density: 1228377.1818181819
+dim3, density: 1039396.0769230769
+dim5, density: 1039396.0769230769
+dim6, density: 1228377.1818181819
+dim7, density: 1228377.1818181819
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B1|=3, MB/|B1|=643435.6666666666
+Deleted 3 values from B1
+Table B1 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim2, density: 1689018.625
+dim3, density: 1351214.9
+dim5, density: 1351214.9
+dim6, density: 1689018.625
+dim7, density: 1689018.625
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B2|=3, MB/|B2|=643435.6666666666
+Deleted 3 values from B2
+Table B2 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1930307.0
+dim5, density: 1930307.0
+dim6, density: 2702429.8
+dim7, density: 2702429.8
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B6|=3, MB/|B6|=643435.6666666666
+Deleted 3 values from B6
+Table B6 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 3378037.25
+dim5, density: 3378037.25
+dim7, density: 6756074.5
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B7|=3, MB/|B7|=643435.6666666666
+Deleted 3 values from B7
+Table B7 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1.3512149E7
+dim5, density: 1.3512149E7
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B3|=1, MB/|B3|=1930307.0
+Deleted 1 values from B3
+Table B3 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim5, density: -1.0
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B5|=1, MB/|B5|=1930307.0
+Deleted 1 values from B5
+Table B5 is empty
+--maxIters=29796
+Reconstruct the dense block
+ 0, 0, 0, 0, 1, 0, 0,
+=== find_single_block: 1.3512149E7===
+block density: 1.3512149E7
+Compute MR done
+=== find_single_block ===
+Initializing...
+Cardinalities: (3,70,11,7195,21493,512,512,)
+Start removing blocks...
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 893.0098341948043
+dim2, density: 1107.7166257441727
+dim3, density: 1084.3354147782588
+dim4, density: 1452.6901507185419
+dim5, density: 3587.8615506329115
+dim6, density: 843.6331593134747
+dim7, density: 1096.601234946952
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4898431.0, |B5|=21493, MB/|B5|=227.90820267063694
+Deleted 20948 values from B5
+Table B5 remains 545 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 2724.5201220890795
+dim2, density: 3469.175452578845
+dim3, density: 3367.212241203756
+dim4, density: 16859.576923076922
+dim5, density: 3524.5042117930207
+dim6, density: 2668.262748384008
+dim7, density: 3583.56657901028
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=4535057.0, |B4|=7195, MB/|B4|=630.3067407922168
+Deleted 7028 values from B4
+Table B4 remains 167 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 7436.515685195377
+dim2, density: 16892.205245153935
+dim3, density: 15849.422418553286
+dim4, density: 17144.815440289505
+dim5, density: 22660.983606557376
+dim6, density: 17171.849889624726
+dim7, density: 21634.410313901346
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=4383490.0, |B5|=545, MB/|B5|=8043.100917431193
+Deleted 539 values from B5
+Table B5 remains 6 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 10572.886541471047
+dim2, density: 22969.15650741351
+dim3, density: 21264.10691823899
+dim4, density: 25398.477211796246
+dim5, density: 22142.563479623826
+dim6, density: 27541.09024390244
+dim7, density: 34586.76375
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=4146960.0, |B7|=512, MB/|B7|=8099.53125
+Deleted 481 values from B7
+Table B7 remains 31 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 16953.76286072773
+dim2, density: 36237.87312414734
+dim3, density: 32477.061946902653
+dim4, density: 42483.28526645768
+dim5, density: 33833.2893081761
+dim6, density: 66446.01173020528
+dim7, density: 25126.672279792743
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3952773.0, |B6|=512, MB/|B6|=7720.259765625
+Deleted 459 values from B6
+Table B6 remains 53 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 39976.77218934911
+dim2, density: 81145.14545454546
+dim3, density: 64896.283132530116
+dim4, density: 124075.82122905027
+dim5, density: 65407.833333333336
+dim6, density: 65531.42611683849
+dim7, density: 61123.39616613418
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=3236870.0, |B4|=167, MB/|B4|=19382.45508982036
+Deleted 162 values from B4
+Table B4 remains 5 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 76773.57386363637
+dim2, density: 195029.4375
+dim3, density: 124144.25882352941
+dim4, density: 77656.02873563218
+dim5, density: 124627.75862068965
+dim6, density: 145409.58914728684
+dim7, density: 124875.87417218542
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=3172796.0, |B2|=70, MB/|B2|=45325.65714285714
+Deleted 67 values from B2
+Table B2 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 123964.66972477065
+dim2, density: 123964.66972477065
+dim3, density: 202450.3300970874
+dim4, density: 126281.76635514018
+dim5, density: 200470.1214953271
+dim6, density: 299032.43548387097
+dim7, density: 221454.58333333334
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=3120471.0, |B6|=53, MB/|B6|=58876.811320754714
+Deleted 50 values from B6
+Table B6 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 229019.47457627117
+dim2, density: 229019.47457627117
+dim3, density: 348624.23076923075
+dim4, density: 237055.2456140351
+dim5, density: 319851.61403508775
+dim6, density: 229019.47457627117
+dim7, density: 542568.5588235294
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=2648573.0, |B7|=31, MB/|B7|=85437.83870967742
+Deleted 28 values from B7
+Table B7 remains 3 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 435875.77419354836
+dim2, density: 435875.77419354836
+dim3, density: 754925.5
+dim4, density: 465936.17241379304
+dim5, density: 625478.0
+dim6, density: 435875.77419354836
+dim7, density: 435875.77419354836
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=2635333.0, |B3|=11, MB/|B3|=239575.72727272726
+Deleted 10 values from B3
+Table B3 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 643435.6666666666
+dim2, density: 643435.6666666666
+dim3, density: 587484.7391304348
+dim4, density: 711165.7368421053
+dim5, density: 937354.894736842
+dim6, density: 643435.6666666666
+dim7, density: 643435.6666666666
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=2588316.0, |B5|=6, MB/|B5|=431386.0
+Deleted 5 values from B5
+Table B5 remains 1 values
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 844509.3125
+dim2, density: 844509.3125
+dim3, density: 750674.9444444444
+dim4, density: 965153.5
+dim5, density: 750674.9444444444
+dim6, density: 844509.3125
+dim7, density: 844509.3125
+Selected dimension: 4
+Computing the low-mass tuples in ascending order
+  MB=2544249.0, |B4|=5, MB/|B4|=508849.8
+Deleted 5 values from B4
+Table B4 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim1, density: 1228377.1818181819
+dim2, density: 1228377.1818181819
+dim3, density: 1039396.0769230769
+dim5, density: 1039396.0769230769
+dim6, density: 1228377.1818181819
+dim7, density: 1228377.1818181819
+Selected dimension: 1
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B1|=3, MB/|B1|=643435.6666666666
+Deleted 3 values from B1
+Table B1 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim2, density: 1689018.625
+dim3, density: 1351214.9
+dim5, density: 1351214.9
+dim6, density: 1689018.625
+dim7, density: 1689018.625
+Selected dimension: 2
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B2|=3, MB/|B2|=643435.6666666666
+Deleted 3 values from B2
+Table B2 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1930307.0
+dim5, density: 1930307.0
+dim6, density: 2702429.8
+dim7, density: 2702429.8
+Selected dimension: 6
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B6|=3, MB/|B6|=643435.6666666666
+Deleted 3 values from B6
+Table B6 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 3378037.25
+dim5, density: 3378037.25
+dim7, density: 6756074.5
+Selected dimension: 7
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B7|=3, MB/|B7|=643435.6666666666
+Deleted 3 values from B7
+Table B7 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim3, density: 1.3512149E7
+dim5, density: 1.3512149E7
+Selected dimension: 3
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B3|=1, MB/|B3|=1930307.0
+Deleted 1 values from B3
+Table B3 is empty
+Computing the Attribute-Value Mass for all a in Bn (n in [N])
+dim5, density: -1.0
+Selected dimension: 5
+Computing the low-mass tuples in ascending order
+  MB=1930307.0, |B5|=1, MB/|B5|=1930307.0
+Deleted 1 values from B5
+Table B5 is empty
+--maxIters=29796
+Reconstruct the dense block
+ 0, 0, 0, 0, 1, 0, 0,
+=== find_single_block: 1.3512149E7===
+block density: 1.3512149E7
+Results are saved in database: results* and density
+Closed database successfully
+Time elasped: 867501 ms
+#java -cp postgresql-42.0.0.jar:. DCube /Users/bilibili/Codes/DCube-SQL/src/darpa.csv output 3 ari density 3

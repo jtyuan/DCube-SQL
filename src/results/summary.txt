@@ -1,0 +1,9 @@
+
+4.1 ari density
+card_cache+optimized_sql+del_mark 805215 ms
+1x1x1x1x1x1x1    1930307
+1x1x1x2x1x2x2    421776.6
+3x4x3x3x1x58x21  41703.96774
+3x4x3x13x4x67x35 25691.30233
+1x1x3x1x1x36x20  18769.88889
+
